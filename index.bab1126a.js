@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var t=document.querySelector(".wall"),e=t.querySelector(".spider");document.addEventListener("click",function(n){if(n.target===t){var c=t.clientWidth-e.clientWidth,i=t.clientHeight-e.clientHeight,l=n.offsetX-e.clientWidth/2,o=n.offsetY-e.clientHeight/2;l<0&&(l=0),o<0&&(o=0),l>c&&(l=c),o>i&&(o=i),e.style.top="".concat(o,"px"),e.style.left="".concat(l,"px")}})});
+//# sourceMappingURL=index.bab1126a.js.map
